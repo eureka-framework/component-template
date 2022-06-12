@@ -4,9 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-```
+```yaml
 ## [tag] - YYYY-MM-DD
-[tag]: https://github.com/eureka-framework/component-console/compare/1.0.0...master
+[tag]: https://github.com/eureka-framework/component-template/compare/1.0.0...master
 ### Changed
  * Change 1
 ### Added
@@ -16,6 +16,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ```
 
 ----
+
+## [1.0.1] - 2022-06-12
+### Changed
+ - Fix changelog template link
+ - Update github workflow ci file
 
 ## [1.0.0] - 2022-06-12
 ### Added

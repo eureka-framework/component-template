@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Application\Tests;
+namespace Eureka\Component\Template\Tests;
 
 use PHPUnit\Framework\TestCase;
 

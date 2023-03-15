@@ -80,9 +80,6 @@ To perform a static analyze of your code (with phpstan, lvl 9 at default), you c
 make analyze
 ```
 
-To ensure you code still compatible with current supported version at Deezer and futures versions of php, you need to
-run the following commands (both are required for full support):
-
 Minimal supported version:
 ```bash
 make php74compatibility
@@ -99,10 +96,7 @@ And the last "helper" commands, you can run before commit and push, is:
 make ci  
 ```
 
-#### Nota Bene
-`bin/test.sh` & `bin/install.sh` should only use by Jenkins. They are only wrapper for `make` commands.
-
 
 ## License
 
-This project is currently **proprietary** and should NOT be used outside Deezer
+This project is licensed under the MIT License - see the `LICENSE` file for details

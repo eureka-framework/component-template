@@ -5,9 +5,14 @@
         backupGlobals="true"
         backupStaticAttributes="false"
         colors="true"
+        convertDeprecationsToExceptions="false"
         convertErrorsToExceptions="true"
         convertNoticesToExceptions="true"
         convertWarningsToExceptions="true"
+        failOnEmptyTestSuite="true"
+        failOnIncomplete="true"
+        failOnRisky="true"
+        failOnWarning="true"
         forceCoversAnnotation="false"
         processIsolation="false"
         stopOnError="false"
@@ -19,6 +24,9 @@
         timeoutForMediumTests="10"
         timeoutForLargeTests="60"
         verbose="false">
+  <php>
+    <ini name="error_reporting" value="E_ALL" />
+  </php>
 
   <coverage>
     <include>
@@ -31,5 +39,4 @@
       <directory>./tests</directory>
     </testsuite>
   </testsuites>
-
 </phpunit>

@@ -17,6 +17,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ----
 
+## [2.0.0] - 2026-01-05
+### Added
+- PHP 8.5 support
+### Removed
+- PHP support of versions < 8.3
+### Changed
+- Update Makefile
+- Update CI configs
+- Update dependencies
+
+----
+
 ## [1.1.0] - 2023-03-15
 ### Changed
 - Update Makefile

@@ -12,10 +12,8 @@ declare(strict_types=1);
 namespace Eureka\Component\Template;
 
 /**
- * DataMapper Data abstract class.
+ * Dummy Src code for template
  *
  * @author Romain Cottard
  */
-class DummySrc
-{
-}
+class DummySrc {}
